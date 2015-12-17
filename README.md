@@ -26,10 +26,10 @@ Please report your bugs on the bug tracker: http://bugs.getfiregpg.org
 ===============
 AUTHORS
 ===============
-Current FireGPG team member:
+Current FireGPG Team member:
 	Maximilien Cuony  <contact@getfiregpg.org>
 
-Previous FireGPG members:
+Previous FireGPG Team members:
     Asher256
 
 GPG Auth module:
