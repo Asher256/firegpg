@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistent - Opties">
+<!ENTITY stop "Stop">
+<!ENTITY next "Volgende">
+<!ENTITY title2 "Opties">
+<!ENTITY description "Hier kunt u enkele globale functies van FireGPG instellen:">
+<!ENTITY inline "Activeer binnensregels detectie">
+<!ENTITY inlinehelp "Als een webpagina een PGP blok bevat, kan FireGPG dit detecteren en er gebruik van maken!">
+<!ENTITY disableagent "Deactiveer GPG-Agent">
+<!ENTITY api "Activeer FireGPG API">
+<!ENTITY apihelp "De FireGPG API laat elke website gpg's functies gebruiken - natuurlijk met beveiligingsmechanismes">
+<!ENTITY gpgauth "Activeer gpgAuth">
+<!ENTITY gpgauthhelp "gpgAuth is een mechanisme of process welke web-gebruikers die GnuPG gebruiken authentificeren, niet ontwikkeld door de FireGPG auteurs">

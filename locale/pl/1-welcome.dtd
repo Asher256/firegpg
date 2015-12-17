@@ -1,0 +1,12 @@
+<!ENTITY title "Witaj! - Asystent FireGPG">
+<!ENTITY skip "Pomiń">
+<!ENTITY next "Dalej">
+<!ENTITY title2 "Asystent FireGPG">
+<!ENTITY infoabout "Here is some information about icons and color used:">
+<!ENTITY whatnext "This suggest a solution or something you should do">
+<!ENTITY good "This is something good">
+<!ENTITY problem "Mamy problem">
+<!ENTITY advanced "Ustawiania dla zaawansowanych użytkowników.">
+<!ENTITY help "This means help is available.  Mouse over the icon for the tooltip.">
+<!ENTITY helppop "W czym mogę pomóc?">
+<!ENTITY description "Witaj! Jeśli jesteś nowym użytkownikiem, ten asystent pomoże Ci skonfigurować program FireGPG. Pamiętaj, że zawsze możesz wrócić później i zmienić dowolne opcje.">

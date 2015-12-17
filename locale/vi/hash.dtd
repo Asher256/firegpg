@@ -1,0 +1,5 @@
+<!ENTITY thitle "Compute hashes of files">
+<!ENTITY result "Result:">
+<!ENTITY browse "Chọn tập tin">
+<!ENTITY hash "Type:">
+<!ENTITY copy "Chép hash vào ổ tạm">

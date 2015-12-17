@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+***** BEGIN LICENSE BLOCK *****
+
+Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+The contents of this source code are subject to the Mozilla Public License
+Version 1.1 (the "License"); you may not use this source code except in
+compliance with the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+
+The Original Code is the FireGPG extension.
+
+The Initial Developer of the Original Code is Maximilien Cuony.
+
+Portions created by the Initial Developer are Copyright (C) 2007
+the Initial Developer. All Rights Reserved.
+
+Contributor(s):
+
+Alternatively, the contents of this source code may be used under the terms of
+either the GNU General Public License Version 2 or later (the "GPL"), or
+the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+in which case the provisions of the GPL or the LGPL are applicable instead
+of those above. If you wish to allow use of your version of this source code
+only under the terms of either the GPL or the LGPL, and not to allow others to
+use your version of this source code under the terms of the MPL, indicate your
+decision by deleting the provisions above and replace them with the notice
+and other provisions required by the GPL or the LGPL. If you do not delete
+the provisions above, a recipient may use your version of this source code
+under the terms of any one of the MPL, the GPL or the LGPL.
+
+***** END LICENSE BLOCK *****
+
+-->
+
+<?xml-stylesheet href="chrome://firegpg/skin/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://firegpg/skin/gpgauth.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://firegpg/locale/firegpg.dtd">
+<overlay id="firegpg-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/> <!---->
+  <script src="misc.js"/> <!---->
+  <script src="cgpgaccess.js"/> <!---->
+  <script src="cgpg.js"/> <!---->
+  <script src="../Webmails/Gmail/cgmail.js"/> <!---->
+  <script src="../Webmails/Gmail/cgmail2.js"/> <!---->
+  <script src="../Webmails/autowrap.js"/> <!---->
+  <script src="cselect.js"/> <!---->
+  <script src="../GpgAuth/gpgauth.js"/> <!---->
+  <script src="../Api/api.js"/> <!---->
+  <script src="inline.js"/> <!---->
+  <script src="../Mime/mime.js" />
+  <script src="../Mime/decoder.js" />
+  <script src="../Mime/encoder.js" />
+  <script src="../Mime/sender.js" />
+  <script src="../Mime/gmailSender.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="firegpg-strings" src="chrome://firegpg/locale/firegpg.properties"/>
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menuseparator/>
+    <menu id="menu-firegpg" label="&firegpgMenu.label;" class="menu-iconic firegpg-menu">
+      <menupopup id="firegpg-menu-popup">
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgMenu.labelClearSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.SIGN)"/>
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgMenu.labelWrapSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.WSIGN)"/>
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgMenu.labelSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.PSIGN)"/>
+        <menuitem class="firegpg-menu-verif menuitem-iconic" label="&firegpgMenu.labelVerif;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.VERIF)"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgMenu.labelCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.CRYPT)"/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgMenu.labelSymCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.SYMCRYPT)"/>
+        <menuitem class="firegpg-menu-cryptsign menuitem-iconic" label="&firegpgMenu.labelCryptSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.CRYPTSIGN)"/>
+        <menuitem class="firegpg-menu-decrypt menuitem-iconic" label="&firegpgMenu.labelDecry;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.DECRYPT)"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-import menuitem-iconic" label="&firegpgMenu.labelImport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.IMPORT)"/>
+        <menuitem class="firegpg-menu-export menuitem-iconic" label="&firegpgMenu.labelExport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.EXPORT)"/>
+        <menuseparator/>
+        <menu id="menu-firegpg" label="&firegpgMenu.labelFiles;" class="menu-iconic firegpg-menu">
+            <menupopup id="firegpg-menu-popup-files">
+              <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgMenu.labelSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FSIGN)"/>
+              <menuitem class="firegpg-menu-verif menuitem-iconic" label="&firegpgMenu.labelVerif;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FVERIF)"/>
+              <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgMenu.labelCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FCRYPT)"/>
+              <menuitem class="firegpg-menu-decrypt menuitem-iconic" label="&firegpgMenu.labelDecry;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FDECRYPT)"/>
+              <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgMenu.labelSymCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FSYMCRYPT)"/>
+              <menuitem class="firegpg-menu-cryptsign menuitem-iconic" label="&firegpgMenu.labelCryptSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FCRYPTSIGN)"/>
+              <menuitem class="firegpg-menu-hash menuitem-iconic" label="&firegpgMenu.labelHashs;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FHASHES)"/>
+            </menupopup>
+        </menu>
+        <menuitem class="firegpg-menu-editeur menuitem-iconic" label="&firegpgMenu.labelEditeur;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.EDITEUR)"/>
+		<menuitem class="firegpg-menu-manager menuitem-iconic" label="&firegpgMenu.labelManager;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.MANAGER)"/>
+        <menuitem class="firegpg-menu-options menuitem-iconic" label="&firegpgMenu.labelOptions;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.OPTS)"/>
+        <menuitem style="display: none;" id="firegpg-menu-memo-menu" class="firegpg-menu-rease menuitem-iconic" label="&firegpgMenu.labelErase;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.ERASE)"/>
+      </menupopup>
+    </menu>
+  </menupopup>
+
+  <popup id="contentAreaContextMenu" >
+    <menuseparator/>
+    <menu id="context-firegpg" class="menu-iconic firegpg-menu" label="&firegpgContext.label;" src="chrome://firegpg/skin/firegpg.png">
+      <menupopup  id="firegpg-contex-popup">
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgContext.labelClearSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.SIGN)"/>
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgContext.labelWrapSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.WSIGN)"/>
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgContext.labelSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.PSIGN)"/>
+        <menuitem class="firegpg-menu-verif menuitem-iconic" label="&firegpgContext.labelVerif;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.VERIF)"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgContext.labelCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.CRYPT)"/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgContext.labelSymCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.SYMCRYPT)"/>
+        <menuitem class="firegpg-menu-cryptsign menuitem-iconic" label="&firegpgContext.labelCryptSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.CRYPTSIGN)"/>
+        <menuitem class="firegpg-menu-decrypt menuitem-iconic" label="&firegpgContext.labelDecry;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.DECRYPT)"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-import menuitem-iconic" label="&firegpgContext.labelImport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.IMPORT)"/>
+        <menuitem class="firegpg-menu-export menuitem-iconic" label="&firegpgContext.labelExport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.EXPORT)"/>
+        <menuseparator/>
+        <menu id="menu-firegpg" label="&firegpgContext.labelFiles;" class="menu-iconic firegpg-menu">
+            <menupopup id="firegpg-context-popup-files">
+              <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgContext.labelSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FSIGN)"/>
+              <menuitem class="firegpg-menu-verif menuitem-iconic" label="&firegpgContext.labelVerif;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FVERIF)"/>
+              <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgContext.labelCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FCRYPT)"/>
+              <menuitem class="firegpg-menu-decrypt menuitem-iconic" label="&firegpgContext.labelDecry;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FDECRYPT)"/>
+              <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgContext.labelSymCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FSYMCRYPT)"/>
+              <menuitem class="firegpg-menu-cryptsign menuitem-iconic" label="&firegpgContext.labelCryptSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FCRYPTSIGN)"/>
+              <menuitem class="firegpg-menu-hash menuitem-iconic" label="&firegpgContext.labelHashs;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.FHASHES)"/>
+            </menupopup>
+        </menu>
+        <menuitem class="firegpg-menu-editeur menuitem-iconic" label="&firegpgContext.labelEditeur;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.EDITEUR)"/>
+		<menuitem class="firegpg-menu-manager menuitem-iconic" label="&firegpgContext.labelManager;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.MANAGER)"/>
+        <menuitem class="firegpg-menu-options menuitem-iconic" label="&firegpgContext.labelOptions;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.OPTS)"/>
+        <menuitem style="display: none;" id="firegpg-menu-memo-pop" class="firegpg-menu-rease menuitem-iconic" label="&firegpgContext.labelErase;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.ERASE)"/>
+      </menupopup>
+    </menu>
+  </popup>
+
+  <!--<toolbarpalette id="FireGPGBrowserToolbarPalette">
+    <menu id="toolbar-firegpg" class="menu-iconic firegpg-menu" label="&firegpgToolbar.label;" src="chrome://firegpg/skin/firegpg.png">
+      <menupopup id="firegpg-toolbar-popup">
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgToolbar.labelClearSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'SIGN')"/>
+        <menuitem class="firegpg-menu-sign menuitem-iconic" label="&firegpgToolbar.labelSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'PLAINSIGN')"/>
+        <menuitem class="firegpg-menu-verif menuitem-iconic" label="&firegpgToolbar.labelVerif;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'VERIF')"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgToolbar.labelCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'CRYPT')"/>
+        <menuitem class="firegpg-menu-crypt menuitem-iconic" label="&firegpgToolbar.labelSymCrypt;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'SYMCRYPT')"/>
+        <menuitem class="firegpg-menu-cryptsign menuitem-iconic" label="&firegpgToolbar.labelCryptSign;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'CRYPTSIGN')"/>
+        <menuitem class="firegpg-menu-decrypt menuitem-iconic" label="&firegpgToolbar.labelDecry;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'DECRYPT')"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-import menuitem-iconic" label="&firegpgToolbar.labelImport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'IMPORT')"/>
+        <menuitem class="firegpg-menu-export menuitem-iconic" label="&firegpgToolbar.labelExport;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'EXPORT')"/>
+        <menuseparator/>
+        <menuitem class="firegpg-menu-editeur menuitem-iconic" label="&firegpgToolbar.labelEditeur;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'EDITEUR')"/>
+		<menuitem class="firegpg-menu-manager menuitem-iconic" label="&firegpgToolbar.labelManager;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'MANAGER')"/>
+        <menuitem class="firegpg-menu-options menuitem-iconic" label="&firegpgToolbar.labelOptions;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'OPTS')"/>
+        <menuitem style="display: none;" id="firegpg-menu-memo-tool" class="firegpg-menu-rease menuitem-iconic" label="&firegpgToolbar.labelErase;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,'ERASE')"/>
+      </menupopup>
+    </menu>
+  </toolbarpalette>-->
+
+
+    <!-- <vbox id="browser-bottombox">
+
+          <box id="firegpg-popup" insertbefore="status-bar">
+             <vbox >
+                  <label id="firegpg-bonjour" value="&firegpgPopInfo.labelBonjour;" />
+                  <label id="firegpg-access-ok" value="&firegpgPopInfo.labelAccessOk;"/>
+                <label id="firegpg-access-err" value="&firegpgPopInfo.labelAccessErr;" />
+                <label id="firegpg-key-ok" value="&firegpgPopInfo.labelKeyOk;"/>
+                <label id="firegpg-key-err" value="&firegpgPopInfo.labelKeyErr;"/>
+                  <label class="link" onclick="firegpg.closepopup();" value="&firegpgPopInfo.close;" />
+          </vbox>
+          </box>
+
+
+    </vbox>-->
+
+  <!-- gpgAuth status window -->
+  <popupset id="mainPopupSet">
+   <panel id="gpgauth-Panel" hidden="true" orient="horizontal" pack="start" align="center" noautohide="true" noautofocus="true">
+       <stack id="gpgauth-InnerStack">
+        <vbox>
+          <stack id="gpgauth-Titlebar" style="height: 31px; width:332px; background-image: url('chrome://firegpg/skin/sw-header-gpgauth.png');">
+            <bbox id="gpgauth-Closebox" align="right" width="100%"><image id="gpgauth-CloseButton" onclick="gpgAuth.status_window.togglePopup()" style="float: right;"/></bbox>
+          </stack>
+        </vbox>
+       <vbox id="gpgauth-Status" style="top: 31px; width:332px; height:150px; background-image:url('chrome://firegpg/skin/sw-body-gpgauth.png');">
+        <stack style="padding: 0 3px 0 3px;">
+          <textbox multiline="true" oninput="gpgAuth.status_window.cancelInput(event, this);" class="gpgauth-StatusWindowText" id="gpgauth-Status-details"/>
+        </stack>
+        <hbox style="width:100%;">
+          <text value="copy" class="gpgauth-CustomLink" id="gpgauth-CopyButton" onclick="gpgAuth.copyToClipboard( document.getElementById('gpgauth-Status-details').value);"/>
+          <text value="clear" class="gpgauth-CustomLink" id="gpgauth-ClearButton" onclick="document.getElementById('gpgauth-Status-details').value='';"/>
+          <text value="gpgAuth options" class="gpgauth-CustomLink" id="gpgauth-OptionsButton" onclick="window.openDialog('chrome://firegpg/content/Dialogs/options.xul', 'optionsFiregpg', 'chrome, centerscreen, toolbar', 'pane3').focus(); gpgAuth.status_window.togglePopup();"/>
+        </hbox>
+       </vbox>
+     </stack>
+  </panel>
+  </popupset>
+  <!-- end gpgAuth status window -->
+
+    <statusbar id="status-bar">
+
+        <statusbarpanel id="firegpg-statusbar">
+
+             <menupopup id="firegpg-icon-pop-up" onpopupshowing="FireGPG.Overlay.updatePopUp();">
+                    <menuitem class="firegpg-menu menuitem-iconic" id="firegpg-status-of-inline" label="" disabled="true"/>
+
+                    <menuitem class="firegpg-menu menuitem-iconic" id="firegpg-parse-again" label="&parseAgain;" oncommand="FireGPG.Overlay.onMenuItemCommand(event,FireGPG.Const.OverlayActions.CHECKAGAIN)"/>
+
+                    <menuitem class="firegpg-menu menuitem-iconic" id="firegpg-inline-switcher" label="" oncommand="FireGPG.Overlay.onMenuItemCommand(event,this.tag)"/>
+                    <menuitem class="firegpg-menu menuitem-iconic" id="firegpg-inline-temp-switcher" label="" oncommand="FireGPG.Overlay.onMenuItemCommand(event,this.tag)"/>
+                  </menupopup>
+
+            <img src="chrome://firegpg/skin/firegpg.png" class="statusbarpanel-iconic" popup="firegpg-icon-pop-up" />
+            <label value="&update-avaiable;"   id="firegpg-statusbar-update"  onclick="FireGPG.Overlay.onMenuItemCommand(null,FireGPG.Const.OverlayActions.UPDATE);" style="display: none;"/>
+            <label value=""   id="firegpg-statusbar-trusted-content"  style="display: none;"/>
+
+            <label value="Problems with gmail. Click me."   id="firegpg-statusbar-gmail"  onclick="FireGPG.Overlay.onMenuItemCommand(null,FireGPG.Const.OverlayActions.GMAIL);" style="display: none;"/>
+        </statusbarpanel>
+
+        <!-- gpgAuth statusbar button -->
+        <statusbarpanel id="gpgauth-statusbar-button"
+            class="statusbarpanel-iconic"
+            onclick="return gpgAuth.status_window.togglePopup()"
+            tooltiptext="gpgAuth Status Window" style="display:none;">
+            <img src="chrome://firegpg/skin/sb-gpgauth.png" id="gpgauth-StatusIcon" class="statusbarpanel-iconic"/>
+        </statusbarpanel>
+        <!-- end gpgAuth statusbar button -->
+      </statusbar>
+
+
+</overlay>

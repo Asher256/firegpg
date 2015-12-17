@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistant - Private key">
+<!ENTITY stop "Stop">
+<!ENTITY next "Next">
+<!ENTITY title2 "Private key">
+<!ENTITY description "مرفق المفاتيح العمومية نظم العمل مع مفتاح خاص ومفتاح عمومي. يمكنك إنشاء رسائل موقعة مع المفتاح الخاص ومستخدم آخر يتحقق توقيعك مع المفتاح العمومي الخاص بك. اذا كانت تريد أن ترسل لك رسالة ، وهي استخدام المفتاح العمومي الخاص بك ، وهو الوحيد الذي يمكنك فك تشفير باستخدام المفتاح الخاص.">
+<!ENTITY pk "You have at least one private key in your keyring">
+<!ENTITY setdk "Set a default key">
+<!ENTITY askforpk "سؤال عن المفتاح الخاص">
+<!ENTITY name "Name">
+<!ENTITY id "Id">
+<!ENTITY created "مكون">
+<!ENTITY expire "انقضاء">
+<!ENTITY nopk "You don't have any private keys in your keyring">
+<!ENTITY genpk "Generate a private and a public key">
+<!ENTITY gen "Generate">
+<!ENTITY importpk "Import a private key">
+<!ENTITY import "Import">

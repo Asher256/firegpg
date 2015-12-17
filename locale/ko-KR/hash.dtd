@@ -1,0 +1,5 @@
+<!ENTITY thitle "파일의 해쉬 계산">
+<!ENTITY result "결과:">
+<!ENTITY browse "파일 선택">
+<!ENTITY hash "유형:">
+<!ENTITY copy "해쉬를 클립보드에 복사">

@@ -1,0 +1,60 @@
+<!ENTITY firegpg.label "FireGPG">
+<!ENTITY firegpgToolbar.label "FireGPG">
+<!ENTITY firegpgToolbar.tooltip "FireGPG">
+<!ENTITY firegpgContext.label "FireGPG">
+<!ENTITY firegpgContext.labelSign "서명">
+<!ENTITY firegpgContext.labelCrypt "암호화">
+<!ENTITY firegpgContext.labelVerif "검증">
+<!ENTITY firegpgContext.labelDecry "복호화">
+<!ENTITY firegpgContext.labelOptions "설정">
+<!ENTITY firegpgMenu.label "FireGPG">
+<!ENTITY firegpgMenu.labelSign "서명">
+<!ENTITY firegpgMenu.labelCrypt "암호화">
+<!ENTITY firegpgMenu.labelVerif "검증">
+<!ENTITY firegpgMenu.labelDecry "복호화">
+<!ENTITY firegpgMenu.labelOptions "설정">
+<!ENTITY firegpgToolbar.labelSign "서명">
+<!ENTITY firegpgToolbar.labelCrypt "암호화">
+<!ENTITY firegpgToolbar.labelVerif "검증">
+<!ENTITY firegpgToolbar.labelDecry "복호화">
+<!ENTITY firegpgToolbar.labelOptions "설정">
+<!ENTITY firegpgMenu.labelErase "저장된 암호 삭제">
+<!ENTITY firegpgContext.labelErase "저장된 암호 삭제">
+<!ENTITY firegpgToolbar.labelErase "저장된 암호 삭제">
+<!ENTITY firegpgMenu.labelImport "가져오기">
+<!ENTITY firegpgContext.labelImport "가져오기">
+<!ENTITY firegpgToolbar.labelImport "가져오기">
+<!ENTITY firegpgMenu.labelExport "키 내보내기">
+<!ENTITY firegpgContext.labelExport "키 내보내기">
+<!ENTITY firegpgToolbar.labelExport "키 내보내기">
+<!ENTITY firegpgPopInfo.labelBonjour "환영합니다! FireGPG 설치는 성공적이었습니다.">
+<!ENTITY firegpgPopInfo.labelAccessOk "FireGPG가 gpg에 접근할 수 있습니다.">
+<!ENTITY firegpgPopInfo.labelAccessErr "FireGPG가 gpg 실행파일에 접근할 수 없습니다. 설치되어 있는지 다시한번 확인하시고 설정화면에서 경로를 수동으로 지정해주시기 바랍니다.">
+<!ENTITY firegpgPopInfo.labelKeyOk "개인키가 선택되었습니다.">
+<!ENTITY firegpgPopInfo.labelKeyErr "경고: 설정 창에서 개인키를 선택하십시오.">
+<!ENTITY firegpgPopInfo.close "닫기">
+<!ENTITY firegpgPopInfo.options "설정">
+<!ENTITY firegpgContext.labelEditeur "텍스트 편집기">
+<!ENTITY firegpgMenu.labelEditeur "텍스트 편집기">
+<!ENTITY firegpgToolbar.labelEditeur "텍스트 편집기">
+<!ENTITY firegpgContext.labelCryptSign "서명하고 암호화">
+<!ENTITY firegpgMenu.labelCryptSign "서명하고 암호화">
+<!ENTITY firegpgToolbar.labelCryptSign "서명하고 암호화">
+<!ENTITY firegpgToolbar.labelSymCrypt "대칭 암호화">
+<!ENTITY firegpgContext.labelSymCrypt "대칭 암호화">
+<!ENTITY firegpgMenu.labelSymCrypt "대칭 암호화">
+<!ENTITY firegpgContext.labelClearSign "가독형 서명">
+<!ENTITY firegpgToolbar.labelClearSign "가독형 서명">
+<!ENTITY firegpgMenu.labelClearSign "가독형 서명">
+<!ENTITY firegpgContext.labelManager "키 관리자">
+<!ENTITY firegpgToolbar.labelManager "키 관리자">
+<!ENTITY firegpgMenu.labelManager "키 관리자">
+<!ENTITY keynotrevokedpassword "오류, 키가 폐기되지 않았습니다. 잘못된 암호?">
+<!ENTITY firegpgContext.labelWrapSign "줄 바꾸기한 서명">
+<!ENTITY firegpgMenu.labelWrapSign "줄 바꾸기한 서명">
+<!ENTITY firegpgContext.labelHashs "해쉬">
+<!ENTITY firegpgContext.labelFiles "파일 작업">
+<!ENTITY firegpgMenu.labelFiles "파일 작업">
+<!ENTITY firegpgMenu.labelHashs "해쉬">
+<!ENTITY parseAgain "이 페이지를 (다시) 구조분석합니다.">
+<!ENTITY update-avaiable "FireGPG 업데이트가 있습니다.">

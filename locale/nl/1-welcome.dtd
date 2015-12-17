@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistent - Welkom">
+<!ENTITY skip "Overslaan">
+<!ENTITY next "Volgende">
+<!ENTITY title2 "FireGPG Assistent">
+<!ENTITY infoabout "Hier is wat informatie over enkele iconen en de gebruikte kleuren:">
+<!ENTITY whatnext "Deze suggestie is een oplossing of iets wat u zou moeten doen">
+<!ENTITY good "Dit is iets goeds">
+<!ENTITY problem "Dit is een probleem">
+<!ENTITY advanced "Dit is voor geavanceerde gebruikers. Als u dit niet begrijpt is dat geen probleem, u kunt het ongewijzigd laten.">
+<!ENTITY help "Dit is iets met een hulptekst, ga hierover met uw muis om de tekst te zien.">
+<!ENTITY helppop "Hallo, ik ben de hulp">
+<!ENTITY description "Welkom! Deze assistent zal u helpen FireGPG te configureren. Als u een nieuwe gebruiker bent, wordt het aangeraden deze assistent te volgen om FireGPG werkend te krijgen. Wat u ook kiest, het is altijd mogelijk deze opties later aan te passen.">

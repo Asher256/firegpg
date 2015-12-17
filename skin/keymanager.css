@@ -1,0 +1,22 @@
+.red {
+	 font-weight:bold;
+
+	color: red;
+}
+
+treechildren::-moz-tree-cell-text(privatekey)
+{
+  font-weight:bold;
+}
+
+
+treechildren::-moz-tree-cell-text(revokedkey)
+{
+    color: #cccccc;
+}
+
+treechildren::-moz-tree-cell-text(revokedprivatekey)
+{
+    color: #cccccc;
+    font-weight:bold;
+}

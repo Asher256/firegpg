@@ -1,0 +1,60 @@
+<!ENTITY firegpg.label "FireGPG">
+<!ENTITY firegpgToolbar.label "FireGPG">
+<!ENTITY firegpgToolbar.tooltip "FireGPG">
+<!ENTITY firegpgContext.label "FireGPG">
+<!ENTITY firegpgContext.labelSign "وقّع">
+<!ENTITY firegpgContext.labelCrypt "شفر يحول الى شفرة">
+<!ENTITY firegpgContext.labelVerif "تحقّق">
+<!ENTITY firegpgContext.labelDecry "ظهّر">
+<!ENTITY firegpgContext.labelOptions "خيارات">
+<!ENTITY firegpgMenu.label "FireGPG">
+<!ENTITY firegpgMenu.labelSign "وقّع">
+<!ENTITY firegpgMenu.labelCrypt "شفر يحول الى شفرة">
+<!ENTITY firegpgMenu.labelVerif "تحقّق">
+<!ENTITY firegpgMenu.labelDecry "ظهّر">
+<!ENTITY firegpgMenu.labelOptions "خيارات">
+<!ENTITY firegpgToolbar.labelSign "وقّع">
+<!ENTITY firegpgToolbar.labelCrypt "شفر يحول الى شفرة">
+<!ENTITY firegpgToolbar.labelVerif "تحقّق">
+<!ENTITY firegpgToolbar.labelDecry "ظهّر">
+<!ENTITY firegpgToolbar.labelOptions "خيارات">
+<!ENTITY firegpgMenu.labelErase "أخل كلمة السرّ المحفوظة">
+<!ENTITY firegpgContext.labelErase "أخل كلمة السر المحفوظة">
+<!ENTITY firegpgToolbar.labelErase "أخل كلمة السر المحفوظة">
+<!ENTITY firegpgMenu.labelImport "استورد">
+<!ENTITY firegpgContext.labelImport "استورد">
+<!ENTITY firegpgToolbar.labelImport "استورد">
+<!ENTITY firegpgMenu.labelExport "صدّر">
+<!ENTITY firegpgContext.labelExport "صدّر">
+<!ENTITY firegpgToolbar.labelExport "صدّر">
+<!ENTITY firegpgPopInfo.labelBonjour "مرحبا!لقد تم تثبيت FireGPG بنجاح.">
+<!ENTITY firegpgPopInfo.labelAccessOk "بوسع FireGPG النفاذ إلى GnuPG.">
+<!ENTITY firegpgPopInfo.labelAccessErr "تعذّر على FireGPG النفاذ إلى GnuPG؛ هل هو مثبت؟ هل مساره مضبوط؟">
+<!ENTITY firegpgPopInfo.labelKeyOk "اخترت مفتاحا سريا!">
+<!ENTITY firegpgPopInfo.labelKeyErr "تحذير: اختر مفتاحا سريا في الخيارات.">
+<!ENTITY firegpgPopInfo.close "أغلق">
+<!ENTITY firegpgPopInfo.options "خيارات">
+<!ENTITY firegpgContext.labelEditeur "افتح المحرر">
+<!ENTITY firegpgMenu.labelEditeur "افتح المحرر">
+<!ENTITY firegpgToolbar.labelEditeur "افتح المحرر">
+<!ENTITY firegpgContext.labelCryptSign "توقع وتشفير">
+<!ENTITY firegpgMenu.labelCryptSign "توقع وتشفير">
+<!ENTITY firegpgToolbar.labelCryptSign "توقع وتشفير">
+<!ENTITY firegpgToolbar.labelSymCrypt "تشفير المتماثل">
+<!ENTITY firegpgContext.labelSymCrypt "تشفير المتماثل">
+<!ENTITY firegpgMenu.labelSymCrypt "تشفير المتماثل">
+<!ENTITY firegpgContext.labelClearSign "واضح التوقيع">
+<!ENTITY firegpgToolbar.labelClearSign "واضح التوقيع">
+<!ENTITY firegpgMenu.labelClearSign "واضح التوقيع">
+<!ENTITY firegpgContext.labelManager "مفاتيح الإدارة">
+<!ENTITY firegpgToolbar.labelManager "مفاتيح الإدارة">
+<!ENTITY firegpgMenu.labelManager "مفاتيح الإدارة">
+<!ENTITY keynotrevokedpassword "Error, key not revoked. Wrong password?">
+<!ENTITY firegpgContext.labelWrapSign "ملفوفة توقيع">
+<!ENTITY firegpgMenu.labelWrapSign "Wrapped sign">
+<!ENTITY firegpgContext.labelHashs "علامات الرقم المرمز">
+<!ENTITY firegpgContext.labelFiles "ملفات العمليات">
+<!ENTITY firegpgMenu.labelFiles "ملفات العمليات">
+<!ENTITY firegpgMenu.labelHashs "يفرم التشفير">
+<!ENTITY parseAgain "Parse (again) this page.">
+<!ENTITY update-avaiable "An update of FireGPG is available">

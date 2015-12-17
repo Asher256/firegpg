@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistent - Privé sleutel">
+<!ENTITY stop "Stop">
+<!ENTITY next "Volgende">
+<!ENTITY title2 "Privé sleutel">
+<!ENTITY description "Het PGP systeem werkt met een privé sleutel en een publieke sleutel. U kunt berichten versleutelen met uw privé sleutel en andere gebruikers kunnen dan uw handtekening verifiëren met uw publieke sleutel. Indien zij u een bericht willen sturen, gebruiken ze uw publieke sleuten, en u, en alleen u, kun het bericht ontsleutelen met uw privé sleutel.">
+<!ENTITY pk "U heeft ten minste één privé sleutel in uw sleuteldatabank">
+<!ENTITY setdk "Stel een standaard sleutel in">
+<!ENTITY askforpk "Vraag naar de privé sleutel">
+<!ENTITY name "Naam">
+<!ENTITY id "ID">
+<!ENTITY created "Aangemaakt">
+<!ENTITY expire "Verloop">
+<!ENTITY nopk "U heeft geen privé sleutel in uw sleuteldatabank">
+<!ENTITY genpk "Genereer een publieke en een privé sleutel">
+<!ENTITY gen "Genereer">
+<!ENTITY importpk "Importeer een privé sleutel">
+<!ENTITY import "Importeren">

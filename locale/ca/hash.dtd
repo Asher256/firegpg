@@ -1,0 +1,5 @@
+<!ENTITY thitle "Calcula els hash dels fitxers">
+<!ENTITY result "Resultat:">
+<!ENTITY browse "Sel.lecciona un fitxer">
+<!ENTITY hash "Tipus:">
+<!ENTITY copy "Copia el hash al porta-retalls">

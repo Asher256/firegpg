@@ -1,0 +1,10 @@
+<!ENTITY crypt-button "شفر يحول الى شفرة">
+<!ENTITY dcrypt-button "ظهّر">
+<!ENTITY sign-button "وقّع">
+<!ENTITY verify-button "تحقّق">
+<!ENTITY open-button "افتح">
+<!ENTITY save-button "احفظ">
+<!ENTITY cryptandsign-button "توقع وتشفير">
+<!ENTITY sign-clear-button "واضح التوقيع">
+<!ENTITY symcrypt-button "تشفير المتماثل">
+<!ENTITY closeandcopy-button "نسخ إلى الحافظة وثيق.">

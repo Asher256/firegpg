@@ -1,0 +1,5 @@
+<!ENTITY thitle "Hashes von Dateien berechnen">
+<!ENTITY result "Resultat:">
+<!ENTITY browse "Eine Datei auswählen">
+<!ENTITY hash "Typ:">
+<!ENTITY copy "Hash-Wert in die Zwischenablage kopieren">

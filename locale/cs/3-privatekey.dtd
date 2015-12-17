@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Asistent - Soukromý klíč">
+<!ENTITY stop "Stop">
+<!ENTITY next "Další">
+<!ENTITY title2 "Soukromý klíč">
+<!ENTITY description "PGP systém funguje se soukromým a veřejným klíčem. Podepíšeš zprávu svým soukromým klíčem a příjemce ověří podpis tvým veřejným klíčem. Pokud chtějí napsat zprávu oni tobě tak použijí tvůj veřejný klíč a ty, jenom ty, jí můžeš se svým soukromým klíčem (a heslem k němu) rozšifrovat. ">
+<!ENTITY pk "Máte alespoň jeden soukromý klíč v klíčence">
+<!ENTITY setdk "Vybrat výchozí klíč">
+<!ENTITY askforpk "Žádejte o soukromá klíč">
+<!ENTITY name "Jméno">
+<!ENTITY id "Id">
+<!ENTITY created "Vytvořeno">
+<!ENTITY expire "Vyprší">
+<!ENTITY nopk "Nemáte žádný soukromý klíč v klíčence">
+<!ENTITY genpk "Vytvořit soukromý a veřejný klíč">
+<!ENTITY gen "Vytvořit">
+<!ENTITY importpk "Importovat soukromý klíč">
+<!ENTITY import "Importovat">

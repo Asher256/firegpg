@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG assistent - Privat nøkkel">
+<!ENTITY stop "Stopp">
+<!ENTITY next "Neste">
+<!ENTITY title2 "Privat nøkkel">
+<!ENTITY description "PGP systemet fungerer med an privat og en offentlig nøkkel. Du signerer meldingen med din private nøkkel og en annen bruker kan bekrefte signaturen din med den offentlige nøkkelen din. Om de vil sende deg en melding kan de bruke din offentlige nøkkel til å kryptere melding, og bare du vil være i stand til å dekryptere meldingen ved å bruke din private nøkkel.">
+<!ENTITY pk "Du har minst en privat nøkkel på din nøkkelring">
+<!ENTITY setdk "Sett som standardnøkkel">
+<!ENTITY askforpk "Spør etter den private nøkkelen">
+<!ENTITY name "Navn">
+<!ENTITY id "Id">
+<!ENTITY created "Laget">
+<!ENTITY expire "Utløpe">
+<!ENTITY nopk "Du har ingen private nøkler på din nøkkelring">
+<!ENTITY genpk "Generer en pricat og en offentlig nøkkel">
+<!ENTITY gen "Generer">
+<!ENTITY importpk "Importer en privat nøkkel">
+<!ENTITY import "Importer">

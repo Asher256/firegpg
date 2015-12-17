@@ -1,0 +1,5 @@
+<!ENTITY thitle "Compute hashes of files">
+<!ENTITY result "Result:">
+<!ENTITY browse "یک فایل را انتخاب کنید">
+<!ENTITY hash "نوع:">
+<!ENTITY copy "Copy hash to clipboard">

@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG assistent - privatnøgle">
+<!ENTITY stop "Stop">
+<!ENTITY next "Fremad">
+<!ENTITY title2 "Privatnøgle">
+<!ENTITY description "PGP-system fungere med en privatnøgle og en offentlig nøgle. Du underskriver beskeder med din privatnøgle og en anden bruger verificerer den underskrift med din offentlige nøgle. Hvis de vil sende dig en besked, kan de bruge din offentlige nøgle, og kun du er i stand til at dekryptere den med din privatnøgle.">
+<!ENTITY pk "Du har mindst én privatnøgle i din nøglering">
+<!ENTITY setdk "Indstil som standardnøgle">
+<!ENTITY askforpk "Spørg efter privatnøgle">
+<!ENTITY name "Navn">
+<!ENTITY id "Id">
+<!ENTITY created "Oprettet">
+<!ENTITY expire "Udløb">
+<!ENTITY nopk "Du har ikke nogen privatnøgle i din nøglering">
+<!ENTITY genpk "Generér en privat og en offentlig nøgle">
+<!ENTITY gen "Generér">
+<!ENTITY importpk "Importér en privatnøgle">
+<!ENTITY import "Import">

@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistant - Private key">
+<!ENTITY stop "Stop">
+<!ENTITY next "Next">
+<!ENTITY title2 "Private key">
+<!ENTITY description "A PGP rendszer két kulccsal működik, egy saját és egy publikus kulccsal. Az üzeneteidet a saját kulcsoddal írod alá, és a másik felhasználó az ehhez tartozó publikus kulccsal nyitja ki. Ha mások akarnak üzenetet küldeni neked, a te publikus kulcsodat használják, és ezt az üzenetet csak és kizárólag te tudod majd elolvasni a saját kulcsod használatával.">
+<!ENTITY pk "You have at least one private key in your keyring">
+<!ENTITY setdk "Set a default key">
+<!ENTITY askforpk "A saját kulcs kérése">
+<!ENTITY name "Name">
+<!ENTITY id "Id">
+<!ENTITY created "Created">
+<!ENTITY expire "Expire">
+<!ENTITY nopk "You don't have any private keys in your keyring">
+<!ENTITY genpk "Generate a private and a public key">
+<!ENTITY gen "Generate">
+<!ENTITY importpk "Import a private key">
+<!ENTITY import "Import">

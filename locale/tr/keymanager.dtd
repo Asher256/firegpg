@@ -1,0 +1,32 @@
+<!ENTITY key-status "Durumu">
+<!ENTITY key-trust "Güvenilir">
+<!ENTITY key-expire "Expire">
+<!ENTITY key-create "Yaratıldı">
+<!ENTITY key-id "ID">
+<!ENTITY key-name "İsim">
+<!ENTITY revoke-button "Revoke key">
+<!ENTITY sign-button "Signatures">
+<!ENTITY changetrust-button "Güveni değiştir">
+<!ENTITY importserver-button "Sunucudan içe aktar">
+<!ENTITY exportserver-button "Sunucuya dışa aktarım">
+<!ENTITY importfile-button "Dosyadan içe aktar">
+<!ENTITY exportfile-button "Dosyaya dışa aktarım">
+<!ENTITY new-button "Yeni anahtar">
+<!ENTITY keymanager "Anahtar Yöneticisi">
+<!ENTITY refrech "Refresh keys from server">
+<!ENTITY trustUnded "Remove information about trusting">
+<!ENTITY trustDont "I don't trust this key">
+<!ENTITY trustMargi "I marginally trust this key">
+<!ENTITY trustFull "I fully trust this key">
+<!ENTITY trustUltimate "Trust this key ultimately (!)">
+<!ENTITY password-button "Change password">
+<!ENTITY del-button "Sil">
+<!ENTITY revokeNoRaison "No reason specified">
+<!ENTITY revokeComprimse "Key has been compromised">
+<!ENTITY revokeRemplaced "Key is superseded">
+<!ENTITY revokeNotUsed "Key is no longer used">
+<!ENTITY userid-button "User ID">
+<!ENTITY add "Ekle">
+<!ENTITY delete "Sil">
+<!ENTITY revoke "Revoke">
+<!ENTITY fingerprint-button "Parmak izi">

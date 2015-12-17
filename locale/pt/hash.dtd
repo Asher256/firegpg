@@ -1,0 +1,5 @@
+<!ENTITY thitle "Calcular hashes dos ficheiros">
+<!ENTITY result "Resultado:">
+<!ENTITY browse "Seleccione um ficheiro">
+<!ENTITY hash "Tipo:">
+<!ENTITY copy "Copiar hash para a área de transferência">

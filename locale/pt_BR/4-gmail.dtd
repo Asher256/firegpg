@@ -1,0 +1,22 @@
+<!ENTITY title "Assistente do FireGPG - GMail">
+<!ENTITY stop "Parar">
+<!ENTITY next "Próximo">
+<!ENTITY title2 "Suporte ao GMail">
+<!ENTITY description "O FireGPG pode ser integrado ao GMail: botões adicionais para codificar e/ou assinar mensagens serão adicionados e você poderá decodificar e verificar assinaturas de qualquer mensagem.">
+<!ENTITY enable "Abilitar suporte ao GMail">
+<!ENTITY smtpok "FireGPG conseguiu acessar o servidor SMTP">
+<!ENTITY noauth "Nota: A autenticação não foi testada!">
+<!ENTITY noauthhelp "O FireGPG irá avisá-lo caso ocorra algum problema quando ele tenta enviar um mail">
+<!ENTITY sign "Assinar">
+<!ENTITY encrypt "Codificar">
+<!ENTITY atta "Anexos">
+<!ENTITY inline "Usar capacidade de embutir">
+<!ENTITY inlinesuck "Blocos embutidos são maus e nem sempre funcionam. Deve-se utilizar o OpenPGP/Mime, como padrão.">
+<!ENTITY nosmtp "O FireGPG ou não consegue acessar o servidor SMTP, ou seu pedido ainda está em trâmite.">
+<!ENTITY wait "Aguarde por 15 ou mais segundos se vossa conexão for muito lenta">
+<!ENTITY setp "Configurar parâmetros de um servidor SMTP operante (e.g., vosso provedor de Internet ou um servidor em vosso local de trabalho)">
+<!ENTITY host "Servidor (smtp.gmail.com): ">
+<!ENTITY port "Porta (465):">
+<!ENTITY username "Nome do usuário (deixe em branco se quiseis usar o nome de usuário da conta na qual estais atualmente &quot;logado&quot;)">
+<!ENTITY ssl "Usar SSL">
+<!ENTITY setdo "Abilitar as opções padrão para envio de mensagens">

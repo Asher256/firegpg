@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG assistent - indstillinger">
+<!ENTITY stop "Stop">
+<!ENTITY next "Fremad">
+<!ENTITY title2 "Indstillinger">
+<!ENTITY description "Her kan du indstille nogle globale indstillinger for nogle af funktionerne i FireGPG:">
+<!ENTITY inline "Slå indlejret genkendelse til">
+<!ENTITY inlinehelp "Hvis en netside indeholder en PGP-blok, kan FireGPG genkende den og tillader at udføre en relevant operation på den!">
+<!ENTITY disableagent "Slå GPG-Agent fra">
+<!ENTITY api "Slå API til FireGPG til">
+<!ENTITY apihelp "API til FireGPG lader alle netsider bruge gpg's funktioner - selvfølgeligt med sikkerhedsmekanismer">
+<!ENTITY gpgauth "Slå gpgAuth til">
+<!ENTITY gpgauthhelp "gpgAuth er en metode eller proces for godkendelse af internetbrugere der bruger GnuPG, som ikke er udviklet af FireGPG's forfattere">

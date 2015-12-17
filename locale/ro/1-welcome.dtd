@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistant - Welcome">
+<!ENTITY skip "Skip">
+<!ENTITY next "Next">
+<!ENTITY title2 "FireGPG Assistant">
+<!ENTITY infoabout "Here is some information about icons and color used:">
+<!ENTITY whatnext "This suggest a solution or something you should do">
+<!ENTITY good "This is something good">
+<!ENTITY problem "This is a problem">
+<!ENTITY advanced "Aceasta este pentru utilizatorii avansati. Daca nu o intelegi, nu va ingrijorati si lasati-o neschimbata.">
+<!ENTITY help "This means help is available.  Mouse over the icon for the tooltip.">
+<!ENTITY helppop "Hello, I'm the help">
+<!ENTITY description "Bine aţi venit! Asistentul vă va ajuta să configuraţi FireGPG. Dacă sunteţi utilizator nou, este recomandat să urmaţi paşii indicaţi de acesta pentru a obţine o configuraţie funcţională. Indiferent de modificările făcute acum, puteţi folosi fereastra Opţiuni pentru a schimba configurările mai târziu.">

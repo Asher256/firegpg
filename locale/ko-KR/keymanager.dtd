@@ -1,0 +1,32 @@
+<!ENTITY key-status "상태">
+<!ENTITY key-trust "신뢰　　">
+<!ENTITY key-expire "만료　　　　">
+<!ENTITY key-create "생성됨　　　">
+<!ENTITY key-id "ID　　　　　　　　　">
+<!ENTITY key-name "이름">
+<!ENTITY revoke-button "키 폐기">
+<!ENTITY sign-button "서명">
+<!ENTITY changetrust-button "신뢰 변경">
+<!ENTITY importserver-button "서버에서 가져오기">
+<!ENTITY exportserver-button "서버로 내보내기">
+<!ENTITY importfile-button "파일에서 가져오기">
+<!ENTITY exportfile-button "파일로 내보내기">
+<!ENTITY new-button "새로운 키">
+<!ENTITY keymanager "키 관리자">
+<!ENTITY refrech "서버로부터 키를 새로 받아오기">
+<!ENTITY trustUnded "신뢰에 대한 정보를 제거">
+<!ENTITY trustDont "나는 이 키를 신뢰하지 않습니다.">
+<!ENTITY trustMargi "나는 이 키를 최소한으로 신뢰합니다.">
+<!ENTITY trustFull "나는 이 키를 충분히 신뢰합니다.">
+<!ENTITY trustUltimate "이 키를 완전히 신뢰 (!)">
+<!ENTITY password-button "암호 변경">
+<!ENTITY del-button "삭제">
+<!ENTITY revokeNoRaison "이유가 명기되지 않음">
+<!ENTITY revokeComprimse "키가 손상됨">
+<!ENTITY revokeRemplaced "키가 교체됨">
+<!ENTITY revokeNotUsed "키를 더는 사용할 수 없음">
+<!ENTITY userid-button "사용자 ID">
+<!ENTITY add "추가">
+<!ENTITY delete "삭제">
+<!ENTITY revoke "폐기">
+<!ENTITY fingerprint-button "지문">

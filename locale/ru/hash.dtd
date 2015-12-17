@@ -1,0 +1,5 @@
+<!ENTITY thitle "Посчитать хеши файлов">
+<!ENTITY result "Результат:">
+<!ENTITY browse "Выберите файл">
+<!ENTITY hash "Тип:">
+<!ENTITY copy "Скопировать хэш в буфер обмена">

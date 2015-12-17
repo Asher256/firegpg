@@ -1,0 +1,5 @@
+<!ENTITY thitle "计算文件哈希值">
+<!ENTITY result "结果:">
+<!ENTITY browse "选择文件">
+<!ENTITY hash "类型:">
+<!ENTITY copy "复制Hash到剪贴板">

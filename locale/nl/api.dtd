@@ -1,0 +1,11 @@
+<!ENTITY thitle "FireGPG API">
+<!ENTITY intro "De huidige pagina wilt de FireGPG API gebruiken.">
+<!ENTITY warning1 "! ALLEEN accepteren als u de website VERTROUWT !">
+<!ENTITY infos "Als u toegang geeft, zal die website elke functie van FireGPG kunnen gebruiken (versleutelen, ontsleutelen, tekenen, handtekening verifiëren, sleutels im- en exporteren). Uw wachtwoord wordt niet opgeslagen in het geheugen bij gebruik van de API. Wanneer uw wachtwoord nodig is, wordt U gevraagd deze in te typen .">
+<!ENTITY warning2 "! U staat onbeveiligde verbindingen (non-https) toe. Dit is gevaarlijk. !">
+<!ENTITY domain "Het domein">
+<!ENTITY website "De website">
+<!ENTITY page "De pagina">
+<!ENTITY can-access "Toegang verkregen">
+<!ENTITY cannot-access "Geen toegang verkregen">
+<!ENTITY ignore "Negeren">

@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistant - Private key">
+<!ENTITY stop "Stop">
+<!ENTITY next "Next">
+<!ENTITY title2 "Private key">
+<!ENTITY description "Sistemul PGP foloseşte o cheie privată şi o cheie publică. Semnaţi un mesaj cu cheia privată, iar alt utilizator verifică semnătura cu cheia publică. Când cineva doreşte să vă trimită un mesaj, foloseşte cheia dvs. publică, iar mesajul astfel criptat poate fi decriptat doar de dvs. pe baza cheii private.">
+<!ENTITY pk "You have at least one private key in your keyring">
+<!ENTITY setdk "Set a default key">
+<!ENTITY askforpk "Cereţi o cheie privată">
+<!ENTITY name "Name">
+<!ENTITY id "Id">
+<!ENTITY created "Creat">
+<!ENTITY expire "Expire">
+<!ENTITY nopk "You don't have any private keys in your keyring">
+<!ENTITY genpk "Generate a private and a public key">
+<!ENTITY gen "Generate">
+<!ENTITY importpk "Import a private key">
+<!ENTITY import "Import">

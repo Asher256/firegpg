@@ -1,0 +1,109 @@
+#toolbar-firegpg {
+  list-style-image: url("chrome://firegpg/skin/firegpg.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+
+.firegpg-menu-sign {
+  list-style-image: url("chrome://firegpg/skin/sign.png");
+}
+
+.firegpg-menu-rease {
+  list-style-image: url("chrome://firegpg/skin/rase.png");
+}
+
+.firegpg-menu-import {
+  list-style-image: url("chrome://firegpg/skin/import.png");
+}
+
+.firegpg-menu-export {
+  list-style-image: url("chrome://firegpg/skin/export.png");
+}
+
+.firegpg-menu-verif {
+  list-style-image: url("chrome://firegpg/skin/verif.png");
+}
+
+.firegpg-menu-crypt {
+  list-style-image: url("chrome://firegpg/skin/crypt.png");
+}
+
+.firegpg-menu-cryptsign {
+  list-style-image: url("chrome://firegpg/skin/cryptsign.png");
+}
+
+.firegpg-menu-decrypt {
+  list-style-image: url("chrome://firegpg/skin/decrypt.png");
+}
+
+.firegpg-menu-options {
+  list-style-image: url("chrome://firegpg/skin/options.png");
+}
+
+.firegpg-menu-editeur {
+  list-style-image: url("chrome://firegpg/skin/editeur.png");
+}
+
+.firegpg-menu-manager {
+  list-style-image: url("chrome://firegpg/skin/manager.png");
+}
+
+.firegpg-menu-hash {
+  list-style-image: url("chrome://firegpg/skin/hash.png");
+}
+
+.firegpg-menu {
+	list-style-image: url("chrome://firegpg/skin/firegpg.png");
+}
+
+#firegpg-toolbar-button:hover {
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+
+[iconsize="small"] #firegpg-toolbar-button {
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+
+[iconsize="small"] #firegpg-toolbar-button:hover {
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
+
+
+#firegpg-popup {
+	width: 100%;
+	top: 0px;
+	background-color: #ffd7b4;
+	background-position: 4px 4px;
+	padding:15px 8px 7px 8px;
+	border: 1px solid #ff8921;
+	opacity: 0.80;
+	text-align: left;
+}
+
+#firegpg-popup hbox {
+	width: 100%;
+}
+
+label.link {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#firegpg-statusbar-update {
+    background-color: red;
+    color: white;
+
+}
+
+#firegpg-statusbar-gmail {
+    background-color: red;
+    color: white;
+
+}
+
+#firegpg-statusbar-trusted-content {
+
+    background-color: #006600;
+    color: white;
+}

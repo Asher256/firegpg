@@ -1,0 +1,11 @@
+<!ENTITY thitle "API til FireGPG">
+<!ENTITY intro "Den nuværende side ønsker at bruge API'en til FireGPG.">
+<!ENTITY warning1 "! Tillad KUN hvis du har TILLID til dette internetsted !">
+<!ENTITY infos "Hvis tilgang er tilladt, vil internetstedet være i stand til at tilgå alle funktioner af FireGPG (kryptér, dekryptér, underskrive, kontrol af underskrift, kryptér og underskriv, import og eksport af offentlige nøgler). Din adgangskode vil ikke blive lagret i hukommelsen, når API'et er i brug. Du vil blive bedt om at indtaste din adgangskode hver gang den er nødvendig.">
+<!ENTITY warning2 "! Du vil tillade ikke https-trafik. Dette er farligt. !">
+<!ENTITY domain "Domænet">
+<!ENTITY website "Inernetstedet">
+<!ENTITY page "Siden">
+<!ENTITY can-access "Kan tilgå">
+<!ENTITY cannot-access "Kan ikke tilgå">
+<!ENTITY ignore "Ignorér">

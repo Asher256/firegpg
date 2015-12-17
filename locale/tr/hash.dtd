@@ -1,0 +1,5 @@
+<!ENTITY thitle "Compute hashes of files">
+<!ENTITY result "Result:">
+<!ENTITY browse "Dosya seçiniz">
+<!ENTITY hash "Tür:">
+<!ENTITY copy "Karımı panoya kopyala">

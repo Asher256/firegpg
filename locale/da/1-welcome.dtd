@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG assistent - velkommen">
+<!ENTITY skip "Spring over">
+<!ENTITY next "Fremad">
+<!ENTITY title2 "FireGPG assistent">
+<!ENTITY infoabout "Her er nogle informationer om ikoner og farver som er brugt:">
+<!ENTITY whatnext "Dette foreslår en løsning eller noget som du bør gøre">
+<!ENTITY good "Dette er noget godt">
+<!ENTITY problem "Dette er et problem">
+<!ENTITY advanced "Dette er for avancerede brugere. Du forstår det ikke? Det er ikke et problem, du kan undlade at ændre det.">
+<!ENTITY help "Dette indholder hjælpetekst. Hold musen over dette for at læse denne">
+<!ENTITY helppop "Hej, jeg er hjælpen">
+<!ENTITY description "Velkommen! Denne assistent vil hjælpe dig med at indstille FireGPG. Hvis du er en ny bruger er det tilrådeligt at følge denne for at få en fungerende indstilling. Hvad du vælger at gøre kan senere ændres ved hjælp af indstillingsvinduet.">

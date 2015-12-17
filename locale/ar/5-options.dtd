@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistant - Options">
+<!ENTITY stop "Stop">
+<!ENTITY next "Next">
+<!ENTITY title2 "Options">
+<!ENTITY description "هنا يمكنك ان تحدد الخيارات العالمية لبعض الميزات FireGPG :">
+<!ENTITY inline "Enable Inline detection">
+<!ENTITY inlinehelp "If a webpage contains a PGP block, FireGPG can detect it and perform relevant operations with it!">
+<!ENTITY disableagent "تعطيل GnuPG الوكيل">
+<!ENTITY api "تمكين FireGPG API">
+<!ENTITY apihelp "FireGPG API يتيح استخدام أي موقع GnuPGs الميزات -- بطبيعة الحال مع الآليات الأمنية">
+<!ENTITY gpgauth "gpgAuth تمكين">
+<!ENTITY gpgauthhelp "gpgAuth هي آلية أو عملية لمصادقة على شبكة الإنترنت للمستخدمين باستخدام GnuPG. gpgAuth لم يكن الكتاب الذي وضعته لFireGPG.">

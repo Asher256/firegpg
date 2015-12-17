@@ -1,0 +1,5 @@
+<!ENTITY thitle "Compute hashes of files">
+<!ENTITY result "Result:">
+<!ENTITY browse "Välj en fil">
+<!ENTITY hash "Typ:">
+<!ENTITY copy "Kopiera hash till urklipp">

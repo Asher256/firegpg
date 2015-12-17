@@ -1,0 +1,11 @@
+<!ENTITY thitle "FireGPG应用程序接口">
+<!ENTITY intro "当前页面准备使用FirePGP应用程序接口.">
+<!ENTITY warning1 "!只有您信任该网站时才接受!">
+<!ENTITY infos "如果访问已被授权,网站将可以使用FireGPG的任一功能(加密,解密,签名,验证签名,加密和签名,导入导出公钥).FirePGP的API被使用时,您的密码不会被存储在内存中.每次需要时,您都会被要求输入密码.">
+<!ENTITY warning2 "!您将要允许来自非安全连接的通讯.这是危险的.!">
+<!ENTITY domain "域名">
+<!ENTITY website "网站">
+<!ENTITY page "页面">
+<!ENTITY can-access "可以访问">
+<!ENTITY cannot-access "禁止访问">
+<!ENTITY ignore "忽略">

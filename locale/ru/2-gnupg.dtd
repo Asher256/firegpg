@@ -1,0 +1,23 @@
+<!ENTITY title "Помощник FireGPG - GnuPG">
+<!ENTITY stop "Стоп">
+<!ENTITY next "Далее">
+<!ENTITY title2 "GnuPG">
+<!ENTITY description "FireGPG использует GnuPG для выполнения операций PGP. Это значит, что на вашем компьютере должна быть установлена рабочая версия GnuPG.">
+<!ENTITY working "GnuPG доступен и работает.">
+<!ENTITY specialhome "Хотите-ли вы установить пользовательскую папку для GnuPG?">
+<!ENTITY sethome "Установите домашнюю папку">
+<!ENTITY notworking "GnuPG не работает, присутствует проблема. Пожалуйста исправьте её и нажмите &quot;Далее&quot;.">
+<!ENTITY isinstalled "Вы установили GnuPG?">
+<!ENTITY download "Вы можете скачать GnuPG здесь (хотя любой вариант GnuPG подойдёт):">
+<!ENTITY windows "Пользователи Windows: нажмите здесь для загрузки gpg4win (GPG для Windows)">
+<!ENTITY linux "Пользователи Linux: пожалуйста используйте пакет, поставляемый с вашим дистрибутивом, или нажмите здесь для получения исходного кода.">
+<!ENTITY macos "Пользователи MacOS: Я не знаю, но есть один вариант. Google - ваш друг.">
+<!ENTITY uncommon "Установлен-ли ваш GnuPG в нестандартном расположении?">
+<!ENTITY setpath "Пожалуйста установите путь к GnuPG здесь:">
+<!ENTITY browse "Просмотр">
+<!ENTITY isfireftp "У вас установлен FireFTP?">
+<!ENTITY fireftpproblem "FireGPG и FireFTP конфликтуют из-аз старой библиотеки IRC из FireFTP.">
+<!ENTITY uninstall "Если исправление для FireGPG не работает, вам придётся удалить одно из них для функционирования остальных.">
+<!ENTITY strangeplateform "Вы используете необычную платформу?">
+<!ENTITY platform "FireGPG работает только на Windows, Mac OS и Linux (платформы x86 и x86_64).">
+<!ENTITY recompile "Вам нужно перекомпилировать библиотеку IPC, если это необходимо.">

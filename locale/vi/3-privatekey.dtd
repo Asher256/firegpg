@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistant - Private key">
+<!ENTITY stop "Stop">
+<!ENTITY next "Next">
+<!ENTITY title2 "Private key">
+<!ENTITY description "Các PGP hệ thống làm việc với một mã khóa tư và một mã khóa công. Bạn ký thơ tín của bạn với mã khóa tư và một người dùng khác xác minh chữ ký của bạn với mã khóa công của bạn. Nếu họ muốn gửi thơ tín đến cho bạn, họ sử dụng mã khóa công của bạn, và chỉ có bạn mà thôi, có thể giải mả bằng chìa khóa tư của bạn.">
+<!ENTITY pk "You have at least one private key in your keyring">
+<!ENTITY setdk "Set a default key">
+<!ENTITY askforpk "Xin cho khỏa tư nhân">
+<!ENTITY name "Name">
+<!ENTITY id "Id">
+<!ENTITY created "Tạo ra">
+<!ENTITY expire "Đã quá hạn">
+<!ENTITY nopk "You don't have any private keys in your keyring">
+<!ENTITY genpk "Generate a private and a public key">
+<!ENTITY gen "Generate">
+<!ENTITY importpk "Import a private key">
+<!ENTITY import "Import">

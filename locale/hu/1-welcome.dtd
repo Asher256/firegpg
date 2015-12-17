@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistant - Welcome">
+<!ENTITY skip "Skip">
+<!ENTITY next "Next">
+<!ENTITY title2 "FireGPG Assistant">
+<!ENTITY infoabout "Here is some information about icons and color used:">
+<!ENTITY whatnext "This suggest a solution or something you should do">
+<!ENTITY good "This is something good">
+<!ENTITY problem "This is a problem">
+<!ENTITY advanced "Ez haladó felhasználóknak szól, ha nem érted, ne aggódj és ne változtasd meg.">
+<!ENTITY help "This means help is available.  Mouse over the icon for the tooltip.">
+<!ENTITY helppop "Hello, I'm the help">
+<!ENTITY description "Üdvözöllek! Ez az asszisztens fog a FireGPG beállításában segíteni. Új felhasználóknak javasolt az asszisztens használata, hogy a FireGPG jól működjön. Bármit is válassz, később a Beállítások ablakban mindent meg lehet majd változtatni.">

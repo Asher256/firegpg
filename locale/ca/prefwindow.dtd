@@ -1,0 +1,91 @@
+<!ENTITY prefwindow.title "Preferències del FireGPG">
+<!ENTITY pane1.title "General">
+<!ENTITY pane2.title "Gmail">
+<!ENTITY pane3.title "gpgAuth">
+<!ENTITY gmail-enabled-checkbox.label "Suport per al GMail">
+<!ENTITY gmail-enabled-checkbox.accesskey "G">
+<!ENTITY private-keys-label.text "Clau privada per defecte:">
+<!ENTITY show-website-checkbox "Mostra el lloc web de FireGPG en un camp de comentari de GPG">
+<!ENTITY change-gpg-path-button "Configuració de la ubicació del GPG">
+<!ENTITY change-gpg-path-checkbox "Especificar manualment la ubicació del GPG:">
+<!ENTITY result-always-in-new-window "Mostra sempre el resultat d'una codificació o una signatura en una nova finestra.">
+<!ENTITY no-gpg-agent-checkbox "Força la desactivació dels agents GPG (pots solucionar alguns errors)">
+<!ENTITY ask-for-save-pass "Per defecte, demana per guardar la contrasenya.">
+<!ENTITY gmail-no-no-sign-checkbox "No mostrius 'No s'ha trobat cap signatura [...]'">
+<!ENTITY gmail-need-a-restart "Aquestes opcions requereixen que es reinici el navegador.">
+<!ENTITY gmail-buttons-label "Botons a mostrar:">
+<!ENTITY gmail-buton-sign-checkbox "Signa">
+<!ENTITY gmail-buton-signsend-checkbox "Signa i Envia">
+<!ENTITY gmail-buton-crypt-checkbox "Xifra">
+<!ENTITY gmail-buton-cryptsend-checkbox "Xifra i envia">
+<!ENTITY allvays-to-myself-checkbox "Xifra sempre a mi mateix">
+<!ENTITY enable-gpgauth-check.accesskey "E">
+<!ENTITY global-allow-keyring-pref.label "Desxifra sempre missatges de Servidors Autenticats">
+<!ENTITY global-allow-keyring-check.label "Desxifra sempre missatges de Servidors Autenticats.">
+<!ENTITY global-allow-keyring-check.accesskey "A">
+<!ENTITY per-domain-preferences.label "Configuració per domini">
+<!ENTITY turn-off-updates "Denega FireGPG d'actualitzar-se automàticament">
+<!ENTITY key-name "Nom">
+<!ENTITY key-id "Id">
+<!ENTITY key-create "Creat">
+<!ENTITY key-expire "Caduca">
+<!ENTITY pane4.title "Gpg">
+<!ENTITY gpg-add-options "Afegir arguments a la linea de comandes de GPG : (Atenció! Pot trencar GPG ! Mira la documentació)">
+<!ENTITY gmail-buton-signcrypt-checkbox "Signar i Xifrar">
+<!ENTITY gmail-buton-signcryptsend-checkbox "Singar, xifrar i enviar">
+<!ENTITY firegpg-version-label.text "Versió actual de FireGPG : ">
+<!ENTITY hide-expired "Amagar claus caducades">
+<!ENTITY use-api "Activa el API de FIREGPG per pàgines Web (Requereix reiniciar)">
+<!ENTITY paneapi.title "API">
+<!ENTITY api-liste-domain.label "Domini">
+<!ENTITY api-liste-keyauth.label "Clau">
+<!ENTITY use-gpg-agent-checkbox "Activar Gpg-agent (Atenció, crear fallos...)">
+<!ENTITY search-description "Filtre">
+<!ENTITY gmail-buton-use-select-checkbox "No mostris botons sino una llista">
+<!ENTITY firegpg-ask-for-private-label.text "Demanar sempre per la clau privada">
+<!ENTITY inline-activated "Activa el controlador per a blocs GPG en les pàgines (es necessita reiniciar)">
+<!ENTITY gmail-disable-autosave-checkbox "Deshabilitar autoguardar">
+<!ENTITY gmail-buton-csign-checkbox "Neteja la signatura">
+<!ENTITY gmail-buton-csignsend-checkbox "Neteja la signatura i envia">
+<!ENTITY hide-fireftp-message "No mostrar el missatge que avisa de la presència de l'antiga llibreria IPC">
+<!ENTITY use-fireftp-workaround "Mira d'accedir al IPC amb l'API antic.">
+<!ENTITY keyserver-message "Servidor de claus">
+<!ENTITY symmetric-algo "Algoritme utilitzat per xifratge simètric. Deixa-ho en blanc per defecte. Utilitza 'gpg --version' per obtenir la llista d'algoritmes utilitzables, en la majoria de casos tens aquestes opcions:">
+<!ENTITY gmail-new-interface "Nova interfície Gmail">
+<!ENTITY gmail-select-by-default-label "Seleccionat per defecte:">
+<!ENTITY gmail-buton-inline-checkbox "En línia">
+<!ENTITY gmail-old-interface "Antiga interfície Gmail">
+<!ENTITY gmail-smtp-options-label "Opcions SMTP (correus openpgp/mime)">
+<!ENTITY gmail-smtp-google-com "No intentar utilitzar mai la contrasenya recordada de google.com">
+<!ENTITY gmail-smtp-username "Nom d'usuari (deixar en blanc per utilitzar el nom d'usuari del compte on s'ha entrat):">
+<!ENTITY gmail-smtp-host "Amfitrió (smtp.gmail.com): ">
+<!ENTITY gmail-smtp-port "Port (465):">
+<!ENTITY gmail-smtp-use-ssl-checkbox "Utilitzar SSL:">
+<!ENTITY gmail-disable-sign-detection " Desactiva la detecció de resposta en signatura en línia (i xifratge) (sempre utilitza tot el correu)">
+<!ENTITY gmail-disable-auto-decryption "Antic comportament per desxifratge">
+<!ENTITY gmail-force-from "Forçar des del valor:">
+<!ENTITY gpg-special-path-values "Utilitza {$FxFolder} per tenir el directori del Firefox i {$SPACE} per tenir un espai dins un argument.">
+<!ENTITY decrypt-when-reply "Desxifrar contingut al respondre">
+<!ENTITY gmail-buton-attachements-checkbox "Arxius adjunts">
+<!ENTITY autorwap-liste-action.label "Acció">
+<!ENTITY autorwap-liste-domain.label "Correu web">
+<!ENTITY autowrap_list.label "Respostes automàtiques (doble clic per eliminar)">
+<!ENTITY paneautowrap.title "Auto ajustament">
+<!ENTITY gmail-show-user-info-for-signs-checkbox "Mostra dades d'usuari per signatures correctes">
+<!ENTITY gmail-keep-encrypted-mail "Xifra la resposta de correus xifrats">
+<!ENTITY gmail-smtp-no-auth-checkbox "Deshabilitar l'autenticació SMTP">
+<!ENTITY dont_ask_to_download_key "No provis de descarregar claus perdudes">
+<!ENTITY keyserverproxy-message "Proxy a utilitzar pels servidors de claus HTTP i HKP:">
+<!ENTITY digest-message "Resum (el hash utilitzat per signar) (SHA256, SHA512, etc.) (Gmail utilitza aquest valor per crear correus): ">
+<!ENTITY enable-gpgauth-statusbar-check.label "Habilita la icona de la barra d'estat de gpgAuth">
+<!ENTITY enable-gpgauth-statusbar-check.accesskey "S">
+<!ENTITY enable-gpgauth-statuswindow-check.label "Mostra automàticament la finestra d'estat quan utilitzis gpgAuth">
+<!ENTITY enable-gpgauth-statuswindow-check.accesskey "W">
+<!ENTITY enable-gpgauth-check.label "Habilita gpgAuth">
+<!ENTITY panpan-assistant-is-now-dead "Executa l'assistent altre cop">
+<!ENTITY api-liste-access2.label "Llista de drets per a l'API (doble click per treure)">
+<!ENTITY download_key_widhout_asking "Descarrega les claus que falten sense demanar">
+<!ENTITY hide_the_wait_window "Amaga la finestra d'espera">
+<!ENTITY hide_key_server_confirmation "Amaga les operacions' confirmacions del servidor de claus">
+<!ENTITY hide_key_operation_confirmation "Amaga les operacions' confirmacions de les claus">
+<!ENTITY hide_download_menu "Amaga el menú de descàrregues">

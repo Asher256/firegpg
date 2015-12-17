@@ -1,0 +1,91 @@
+<!ENTITY prefwindow.title "Preferências do FireGPG">
+<!ENTITY pane1.title "Geral">
+<!ENTITY pane2.title "Gmail">
+<!ENTITY pane3.title "gpgAuth">
+<!ENTITY gmail-enabled-checkbox.label "Habilitar o suporte ao GMail.">
+<!ENTITY gmail-enabled-checkbox.accesskey "G">
+<!ENTITY private-keys-label.text "Chave privada pré-definida:">
+<!ENTITY show-website-checkbox "Mostrar a URL do site do FireGPG nos comentários finais">
+<!ENTITY change-gpg-path-button "Configurar a localização do GnuPG">
+<!ENTITY change-gpg-path-checkbox "Especificar manualmente a localização do GnuPG:">
+<!ENTITY result-always-in-new-window "Mostrar sempre o resultado de uma assinatura ou cifra numa nova janela.">
+<!ENTITY no-gpg-agent-checkbox "Forçar o desligamento do gpg agent (isso poderá corrigir alguns erros)">
+<!ENTITY ask-for-save-pass "Por padrão, peça para salvar senhas.">
+<!ENTITY gmail-no-no-sign-checkbox "Não mostrar 'Nenhuma assinatura encontrada [...]'">
+<!ENTITY gmail-need-a-restart "Esta opção necessita do reinício do navegador.">
+<!ENTITY gmail-buttons-label "Mostrar Botões:">
+<!ENTITY gmail-buton-sign-checkbox "Assinar">
+<!ENTITY gmail-buton-signsend-checkbox "Assinar e Enviar">
+<!ENTITY gmail-buton-crypt-checkbox "Cifrar">
+<!ENTITY gmail-buton-cryptsend-checkbox "Cifrar e Enviar">
+<!ENTITY allvays-to-myself-checkbox "Sempre cifrar para mim mesmo.">
+<!ENTITY enable-gpgauth-check.accesskey "E">
+<!ENTITY global-allow-keyring-pref.label "Sempre decifrar mensagens de servidores autenticados.">
+<!ENTITY global-allow-keyring-check.label "Sempre decifrar mensagens de servidores autenticados.">
+<!ENTITY global-allow-keyring-check.accesskey "A">
+<!ENTITY per-domain-preferences.label "Configurações por domínio:">
+<!ENTITY turn-off-updates "Desabilitar as atualizações automáticas do FireGPG.">
+<!ENTITY key-name "Nome">
+<!ENTITY key-id "Id">
+<!ENTITY key-create "Criação">
+<!ENTITY key-expire "Expiração">
+<!ENTITY pane4.title "GPG">
+<!ENTITY gpg-add-options "Adicionar argumentos à linha de comando do gpg: (Cuidado! Isso paderá travar o FireGPG! Leia a documentação.)">
+<!ENTITY gmail-buton-signcrypt-checkbox "Assinar e Cifrar">
+<!ENTITY gmail-buton-signcryptsend-checkbox "Assinar, Cifrar e Enviar">
+<!ENTITY firegpg-version-label.text "Versão atual do FireGPG:">
+<!ENTITY hide-expired "Esconder chaves expiradas.">
+<!ENTITY use-api "Ativar a API FireGPG para webpages (como roundcube). Será necessário reinicializar.">
+<!ENTITY paneapi.title "API">
+<!ENTITY api-liste-domain.label "Domínio">
+<!ENTITY api-liste-keyauth.label "Chave">
+<!ENTITY use-gpg-agent-checkbox "Ativar o GPG-agent (alerta: pode causar problemas...)">
+<!ENTITY search-description "Filtro:">
+<!ENTITY gmail-buton-use-select-checkbox "Não mostrar botões numa lista drop down.">
+<!ENTITY firegpg-ask-for-private-label.text "Sempre perguntar pela chave privada">
+<!ENTITY inline-activated "Ativar a manipulação de blocos PGP em sites. Será necessário reinicializar.">
+<!ENTITY gmail-disable-autosave-checkbox "Desabilitar o salvamento automático">
+<!ENTITY gmail-buton-csign-checkbox "Assinar">
+<!ENTITY gmail-buton-csignsend-checkbox "Assinar e enviar">
+<!ENTITY hide-fireftp-message "Não mostrar mensagens sobre biblioteca IPC antiga instalada.">
+<!ENTITY use-fireftp-workaround "Tente acessar o IPC com a API antiga.">
+<!ENTITY keyserver-message "Servidor de chaves">
+<!ENTITY symmetric-algo "Algoritmo utilizado para codificação simétrica. Deixeis em branco para usar o valor padrão. Utilizeis o comando 'gpg --version' para obter uma lista de algoritmos disponíveis. Na maioria dos casos, tereis as seguintes alternativas:">
+<!ENTITY gmail-new-interface "Nova interface do gmail">
+<!ENTITY gmail-select-by-default-label "Selecionado por padrão:">
+<!ENTITY gmail-buton-inline-checkbox "Embutido">
+<!ENTITY gmail-old-interface "Antiga interface do gmail">
+<!ENTITY gmail-smtp-options-label "Opções SMTP (mensagens openpgp/mime)">
+<!ENTITY gmail-smtp-google-com "Nunca tentar usar a senha lembrada por google.com">
+<!ENTITY gmail-smtp-username "Nome de usuário (deixe em branco para usar o nome de usuário da conta logada):">
+<!ENTITY gmail-smtp-host "Servidor (smtp.gmail.com):">
+<!ENTITY gmail-smtp-port "Porta(465):">
+<!ENTITY gmail-smtp-use-ssl-checkbox "Usar SSL:">
+<!ENTITY gmail-disable-sign-detection "Desativar detecção de resposta para assinaturas (e cifragens) embutidas (usar sempre toda a mensagem)">
+<!ENTITY gmail-disable-auto-decryption "Comportamento antigo para decriptação">
+<!ENTITY gmail-force-from "Forçar o valor De:">
+<!ENTITY gpg-special-path-values "Use {$FxFolder} para ter a pasta do Firefox e {$SPACE} para ter um espaço dentro de um argumento">
+<!ENTITY decrypt-when-reply "Decifrar conteúdo quando responder">
+<!ENTITY gmail-buton-attachements-checkbox "Anexos">
+<!ENTITY autorwap-liste-action.label "Ação">
+<!ENTITY autorwap-liste-domain.label "Webmail">
+<!ENTITY autowrap_list.label "Respostas automáticas (clique duplo para remover):">
+<!ENTITY paneautowrap.title "Quebra de linhas automático">
+<!ENTITY gmail-show-user-info-for-signs-checkbox "Mostrar dados do usuário quando a assinatura for válida">
+<!ENTITY gmail-keep-encrypted-mail "Cifrar respostas de emails cifrados">
+<!ENTITY gmail-smtp-no-auth-checkbox "Desabilitar autenticação SMTP">
+<!ENTITY dont_ask_to_download_key "Não tenteis descarregar as chaves faltantes">
+<!ENTITY keyserverproxy-message "Proxy para utilizar com servidores de chave, tipo HTTP e HKP: ">
+<!ENTITY digest-message "Digest (Hash usado para assinar) (SHA256, SHA512, etc.) (O Gmail usa esse valor para criar o email.):">
+<!ENTITY enable-gpgauth-statusbar-check.label "Abilitar o ícone &quot;gpgAuth&quot; na barra de estado">
+<!ENTITY enable-gpgauth-statusbar-check.accesskey "S">
+<!ENTITY enable-gpgauth-statuswindow-check.label "Mostrar automaticamente a janela de estado quando usar &quot;gpgAuth&quot;">
+<!ENTITY enable-gpgauth-statuswindow-check.accesskey "W">
+<!ENTITY enable-gpgauth-check.label "Abilitar &quot;gpgAuth&quot;">
+<!ENTITY panpan-assistant-is-now-dead "Execute o assistente novamente">
+<!ENTITY api-liste-access2.label "Lista de direitos para API (duplo clique para remover)">
+<!ENTITY download_key_widhout_asking "Download de chaves perdidas sem pergutar">
+<!ENTITY hide_the_wait_window "Esconder janela de espera">
+<!ENTITY hide_key_server_confirmation "Esconder confirmações de operações com servidor de chaves">
+<!ENTITY hide_key_operation_confirmation "Esconder confirmações de operações de chaves">
+<!ENTITY hide_download_menu "Esconder menu de download">

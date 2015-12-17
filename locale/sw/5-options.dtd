@@ -1,0 +1,12 @@
+<!ENTITY title "FireGPG Assistant - Options">
+<!ENTITY stop "Stop">
+<!ENTITY next "Nästa">
+<!ENTITY title2 "Options">
+<!ENTITY description "Här kan du se globala inställningar för några FireGPG-funktioner">
+<!ENTITY inline "Aktivera automatisk GPG-blocks-detektering">
+<!ENTITY inlinehelp "Om en websida innehåller ett PGP-block kan FireGPG detektera detta och köra lämpliga operationer på dessa!">
+<!ENTITY disableagent "Stäng av GPG-Agent">
+<!ENTITY api "Aktiver FireGPG:s API">
+<!ENTITY apihelp "FireGPG API låter alla webbsiter använda gpg:s funktioner - självklart med säkerhetsmekanismer">
+<!ENTITY gpgauth "Starta gpgAuth">
+<!ENTITY gpgauthhelp "gpgAuth är ett tillvägagångssätt eller en process för att autentisera web-användare med hjälp av GnuPG och är ej utvecklat av personerna bakom FireGPG">

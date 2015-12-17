@@ -1,0 +1,11 @@
+<!ENTITY thitle "FireGPG Api">
+<!ENTITY intro "Aktuální stránka chce používat FireGPG API.">
+<!ENTITY warning1 "! Souhlaste POUZE pokud DǓVĚŘUJETE této stránce !">
+<!ENTITY infos "Pokud je přístup povolený, webová stránka může využít veškeré funkce FireGPG (šifrovat, dešifrovat, podepisovat, ověřovat podpis, šifrovat s podpisem, importovat a exportovat veřejné klíče). Vaše heslo nebude uloženo v paměti když je API používáno. Budete dotázáni na heslo vždy, když bude potřeba.">
+<!ENTITY warning2 "! Povolíte provoz mimo https. To je nebezpečné. !">
+<!ENTITY domain "Doména">
+<!ENTITY website "Stránka">
+<!ENTITY page "Stránka">
+<!ENTITY can-access "Muže přistupovat">
+<!ENTITY cannot-access "Nemůže přistupovat">
+<!ENTITY ignore "Ignorovat">

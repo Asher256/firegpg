@@ -1,0 +1,17 @@
+<!ENTITY title "FireGPG Assistent - Privater Schlüssel">
+<!ENTITY stop "Stopp">
+<!ENTITY next "Weiter">
+<!ENTITY title2 "Privater Schlüssel">
+<!ENTITY description "Das PGP-System arbeitet mit einem privaten und einem öffentlichen Schlüssel. Sie unterschreiben Nachrichten mit Ihrem privaten Schlüssel und andere Benutzer verifizieren Ihre Unterschrift mit Ihrem öffentlichen Schlüssel. Falls ein anderer Benutzer Ihnen eine verschlüsselte Nachricht senden wollen, benutzt er dazu Ihren öffentlichen Schlüssel und nur Sie können diese Nachricht mit Ihrem privaten Schlüssel entschlüsseln.">
+<!ENTITY pk "Sie haben mindestens einen privaten Schlüssel in Ihrem Schlüsselbund">
+<!ENTITY setdk "Einen voreingestellten Schlüssel setzen">
+<!ENTITY askforpk "Frage nach dem privaten Schlüssel">
+<!ENTITY name "Name">
+<!ENTITY id "Id">
+<!ENTITY created "Erstellt">
+<!ENTITY expire "Ablauf">
+<!ENTITY nopk "Sie haben keinen privaten Schlüssel in Ihrem Schlüsselbund">
+<!ENTITY genpk "Erzeuge einen privaten und einen öffentlichen Schlüssel">
+<!ENTITY gen "Erzeugen">
+<!ENTITY importpk "Importieren eines privaten Schlüssels">
+<!ENTITY import "Importieren">

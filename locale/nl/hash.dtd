@@ -1,0 +1,5 @@
+<!ENTITY thitle "Bereken de hashes van de bestanden">
+<!ENTITY result "Resultaat:">
+<!ENTITY browse "Selecteer een bestand">
+<!ENTITY hash "Type:">
+<!ENTITY copy "Kopieer de hash naar plakbord">

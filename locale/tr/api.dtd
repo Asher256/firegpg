@@ -1,0 +1,11 @@
+<!ENTITY thitle "FireGPG Api">
+<!ENTITY intro "Mevcut sayfa FireGPG API'sini kullanmak istiyor.">
+<!ENTITY warning1 "! Accept ONLY if you TRUST this website !">
+<!ENTITY infos "Erişim hakkı vermeniz halinde, websitesi FireGPG özelliklerinin hepsini (şifreleme, şifre çözme, imza onaylama v.b.) kullanacaktır. Uygulama geliştirme arayüzü (API) kullanıldığında, şifreniz bellekte saklanmayacaktır. Gereken hallerde, sizden şifrenizi girmeniz istenecektir.">
+<!ENTITY warning2 "! You will allow non-https trafic. This is dangerous. !">
+<!ENTITY domain "Alan">
+<!ENTITY website "The website">
+<!ENTITY page "The page">
+<!ENTITY can-access "Erişebilir">
+<!ENTITY cannot-access "Erişemez">
+<!ENTITY ignore "Gözardı et">

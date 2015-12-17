@@ -1,0 +1,22 @@
+<!ENTITY title "FireGPG Assistent - GMail">
+<!ENTITY stop "Stopp">
+<!ENTITY next "Weiter">
+<!ENTITY title2 "GMail Unterstützung">
+<!ENTITY description "FireGPG kann in GMail integriert werden: Zusätzliche Knöpfe für die Verschlüsselung und/oder Signatur von E-Mails werden der GMail-Oberfläche hinzugefügt und Sie sind auch in der Lage, empfangene E-Mails zu entschlüsseln und/oder deren Unterschrift zu verifizieren.">
+<!ENTITY enable "GMail-Unterstützung aktivieren">
+<!ENTITY smtpok "FireGPG ist in der Lage auf einen Mailserver zuzugreifen">
+<!ENTITY noauth "NB: Authentifizierung ist nicht getestet!">
+<!ENTITY noauthhelp "FireGPG wird Sie warnen, wenn es ein Problem mit dem Versand einer E-Mail-Nachricht gibt.">
+<!ENTITY sign "Unterschreiben">
+<!ENTITY encrypt "Verschlüsseln">
+<!ENTITY atta "Anhänge">
+<!ENTITY inline "Inline benutzen">
+<!ENTITY inlinesuck "Inline ist überholt und nicht sehr zuverlässig. OpenPGP/MIME, der Standard, sollte benutzt werden!">
+<!ENTITY nosmtp "FireGPG ist nicht in der Lage, den Mailserver zu kontaktieren ODER die Anfrage läuft immer noch">
+<!ENTITY wait "Warten Sie 15 Sekunden oder mehr falls Ihre Internetverbindung sehr langsam ist">
+<!ENTITY setp "Einen funktionierenden Mailserver einstellen (z.B. den Ihres Internet Providers oder den Server von Ihrem Arbeitsplatz)">
+<!ENTITY host "Server (smtp.gmail.com):">
+<!ENTITY port "Port (465):">
+<!ENTITY username "Benutzername (leer lassen um den Namen des eineloggten Benutzers zu verwenden):">
+<!ENTITY ssl "SSL benutzen">
+<!ENTITY setdo "Voreinstellungen setzen für das Versenden von E-Mails">

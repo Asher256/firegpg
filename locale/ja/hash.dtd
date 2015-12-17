@@ -1,0 +1,5 @@
+<!ENTITY thitle "ファイルのハッシュを計算する">
+<!ENTITY result "Result:">
+<!ENTITY browse "ファイルを選択する">
+<!ENTITY hash "タイプ:">
+<!ENTITY copy "ハッシュをクリップボードにコピーする">

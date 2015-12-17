@@ -1,0 +1,22 @@
+<!ENTITY title "FireGPG Assistent - Gmail">
+<!ENTITY stop "Stop">
+<!ENTITY next "Volgende">
+<!ENTITY title2 "Gmail ondersteuning">
+<!ENTITY description "FireGPG kan geïntegreerd worden in Gmail: extra knoppen om e-mails te versleutelen en/of tekenen worden toegevoegd en het is mogelijk om e-mails te ontsleutelen of verifiëren.">
+<!ENTITY enable "Activeer Gmail support">
+<!ENTITY smtpok "FireGPG kan de smtp server bereiken">
+<!ENTITY noauth "NB: Authentificatie is niet getest!">
+<!ENTITY noauthhelp "FireGPG zal u waarschuwen bij het versturen van een e-mail als er een probleem ontstaat">
+<!ENTITY sign "Voorzien van handtekening">
+<!ENTITY encrypt "Encrypteer">
+<!ENTITY atta "Bijlagen">
+<!ENTITY inline "Gebruik binnensregels">
+<!ENTITY inlinesuck "Binnensregels werkt slecht en niet iedere keer. OpenPGP/Mime, als standaard, zou gebruikt moeten worden!">
+<!ENTITY nosmtp "FireGPG is niet in staat de smtp server te bereiken OF het verzoek is nog in behandeling">
+<!ENTITY wait "Wacht 15 seconden of meer als uw verbinding heel langzaam is">
+<!ENTITY setp "Stel de parameters van een werkende smtp server in (bijv. van uw internet provider of de server van uw werk)">
+<!ENTITY host "Host">
+<!ENTITY port "Poort (465):">
+<!ENTITY username "Gebruikersnaam (leeg laten om de naam van de gelogde account te gebruiken):">
+<!ENTITY ssl "Gebruik SSL">
+<!ENTITY setdo "Stel standaard opties in voor het versturen van e-mail">
