@@ -2,7 +2,6 @@
 * Website: http://getfiregpg.org
 * Github:  https://github.com/Asher256/
 * Authors: FireGPG Team <contact@getfiregpg.org>
-
 * This extension is compatible with Firefox 3 and above, on Windows, MacOS and Linux platforms.
 
 ## Build the XPI
