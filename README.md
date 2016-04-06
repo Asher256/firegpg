@@ -30,7 +30,7 @@ Current FireGPG Team member:
 	Maximilien Cuony  <contact@getfiregpg.org>
 
 Previous FireGPG Team members:
-    Asher256
+	Asher256 <asher256@gmail.com> (Github: https://github.com/Asher256/ )
 
 GPG Auth module:
 	Kyle L. Huff
