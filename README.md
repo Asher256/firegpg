@@ -1,13 +1,12 @@
-Name:    FireGPG
-Website: http://getfiregpg.org
+* Name:    FireGPG
+* Website: http://getfiregpg.org
 Github:  https://github.com/Asher256/
-Authors: FireGPG Team <contact@getfiregpg.org>
+* Authors: FireGPG Team <contact@getfiregpg.org>
 
-This extension is compatible with Firefox 3 and above, on Windows, MacOS and Linux platforms.
+* This extension is compatible with Firefox 3 and above, on Windows, MacOS and Linux platforms.
 
-===============
-Build the XPI
-===============
+## Build the XPI
+
 You can build an XPI for installation by running the build.sh script located in this folder.
 
 For development you should do the following:
@@ -19,14 +18,12 @@ For development you should do the following:
      [your profile folder]\extensions\
   3. Restart Firefox.
 
-===============
-Report a bug
-===============
+## Report a bug
+
 Please report your bugs on the bug tracker: http://bugs.getfiregpg.org
 
-===============
-AUTHORS
-===============
+## AUTHORS
+
 Current FireGPG Team member:
 	Maximilien Cuony  <contact@getfiregpg.org>
 
